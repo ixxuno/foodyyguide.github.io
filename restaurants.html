@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Top Local Restaurants - FoodyyGuide</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" />
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<style>
+  body {
+      background-color: #FEE9E1;
+      color: #4F2E1E; 
+  }
+
+  .navbar {
+      background-color: #814C2B !important;
+  }
+
+  .navbar .nav-link,
+  .navbar-brand {
+      color: #fff !important;
+  }
+
+  .navbar .nav-link.active,
+  .navbar .nav-link:hover {
+      font-weight: bold;
+      text-decoration: underline;
+      color: #FA7C54 !important;
+  }
+
+  header {
+      background-color: #FAD4C0; 
+      color: #814C2B;
+  }
+
+  .card-img-top {
+      height: 450px;
+      object-fit: cover;
+      width: 100%;
+  }
+
+  .card {
+      background-color: #FFF5E1;
+      border: none;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.05);
+      transition: transform 0.3s ease;
+  }
+
+  .card:hover {
+      transform: translateY(-5px);
+  }
+
+  .card-title,
+  .card-text,
+  h1, h2, h5, h6, p, li {
+      color: #4F2E1E !important; 
+  }
+
+  footer {
+      background-color: #814C2B; 
+      color: #fff;
+  }
+</style>
+<body>
+
+  <!-- Navbar -->
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark sticky-top">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="index.html">FoodyyGuide</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mainNav">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="mainNav">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item"><a class="nav-link" href="food.html">Food</a></li>
+          <li class="nav-item"><a class="nav-link active" href="restaurants.html">Restaurants</a></li>
+          <li class="nav-item"><a class="nav-link" href="menu.html">Menu</a></li>
+          <li class="nav-item"><a class="nav-link" href="testimonials.html">Testimonials</a></li>
+          <li class="nav-item"><a class="nav-link" href="recipes.html">Recipes</a></li>
+          <li class="nav-item"><a class="nav-link" href="guides.html">Food Guides</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Header -->
+  <header class="text-center py-5" style="background-color: #FAD4C0; color: #814C2B;">
+    <div class="container">
+        <h1 class="display-5">Top 4 Local Restaurants</h1>
+        <p class="lead">Discover flavors from the best culinary spots in town</p>
+    </div>
+</header>
+
+  <!-- Restaurants Section -->
+  <section class="container my-5">
+    <div class="row g-4">
+      <!-- Restaurant 1 -->
+      <div class="col-md-6">
+        <div class="card h-100">
+          <img src="https://assets.onecompiler.app/436vmj5t6/43gwbeerj/925a1e84b208e56f4acacd5baeb704acc3f7f58cbffa0c1ff2daaae9ac96a2bf.webp" class="card-img-top" alt="Manam">
+          <div class="card-body">
+            <h5 class="card-title">Manam</h5>
+            <p class="card-text">A popular modern Filipino restaurant known for its "classic" and "twist" versions of traditional dishes, making it a go-to for both comfort food and inventive takes.</p>
+            <p><strong>Specialty:</strong> Ube - cheese bibingka, Crispy sisig, & Sinigang na Beef Short Rib with Watermelon. </p>
+            <p><strong>Location:</strong> Manila, PH</p>
+          </div>
+        </div>
+      </div>
+
+      <!-- Restaurant 2 -->
+      <div class="col-md-6">
+        <div class="card h-100">
+          <img src="https://assets.onecompiler.app/436vmj5t6/43gwbeerj/971500_9495b32bbeef40ef82d97d9b9386e37c~mv2.avif" class="card-img-top" alt="barbara's heritage Restaurant">
+          <div class="card-body">
+            <h5 class="card-title">Barbara's heritage Restaurant</h5>
+            <p class="card-text">known for offering traditional Filipino-Spanish cuisine in a heritage setting with cultural performances.</p>
+            <p><strong>Specialty:</strong> Kare-Kare, letchon kawali, and lumpiang ubod</p>
+            <p><strong>Location:</strong> Intramuros, PH</p>
+          </div>
+        </div>
+      </div>
+
+      <!-- Restaurant 3 -->
+      <div class="col-md-6">
+        <div class="card h-100">
+          <img src="https://assets.onecompiler.app/436vmj5t6/43gwbeerj/44519563734_b0b8e8d8a0_h.jpg" class="card-img-top" alt="ilustrado Restaurant">
+          <div class="card-body">
+            <h5 class="card-title">ilustrado Restaurant</h5>
+            <p class="card-text">Nestled within the historic walls of Intramuros, Manila, is renowned for its exquisite blend of Filipino and Spanish cuisines. The restaurant offers a nostalgic ambiance that complements its culinary offerings.</p>
+            <p><strong>Specialty:</strong> Paella Ilustrado, Adobong Bagnet with Prawns and Taba ng Talangka, & Callos Madrileña. </p>
+            <p><strong>Location:</strong> Intramuros, PH</p>
+          </div>
+        </div>
+      </div>
+
+      <!-- Restaurant 4 -->
+      <div class="col-md-6">
+        <div class="card h-100">
+          <img src="https://assets.onecompiler.app/436vmj5t6/43gwcj8wg/10-10+FARMER'S+DAUGHTER+P1.png" class="card-img-top" alt="Binalot Fiesta">
+          <div class="card-body">
+            <h5 class="card-title">The Farmer's Daughter Restaurant</h5>
+            <p class="card-text">Celebrated for its authentic Cordilleran cuisine, offering a taste of the highlands through traditional dishes and rustic ambiance</p>
+            <p><strong>Specialty:</strong> Kinuday, Pinikpikan, & Pinuneg.</p>
+            <p><strong>Location:</strong> Baguio, PH</p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Optional video row -->
+    <div class="row mt-5">
+      <div class="col-12 text-center">
+        <h4>Featured Local Restaurant Tour</h4>
+        <div class="ratio ratio-16x9">
+          <iframe src="https://www.youtube.com/embed/_YOUR_VIDEO_ID_" title="Restaurant Vlog" allowfullscreen></iframe>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <footer class="text-center py-3 mt-5" style="background-color: #814C2B; color: #fff;">
+    <div class="container">
+        <small>&copy; 2025 FoodyyGuide. All rights reserved.</small>
+    </div>
+</footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
